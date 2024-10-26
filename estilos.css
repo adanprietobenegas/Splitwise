@@ -1,0 +1,43 @@
+body{
+    background-color: #333;
+}
+
+.espacio{
+    margin-top: 5px;
+}
+
+#btnForm{
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+#btnForm:hover{
+    background-color: gray;
+    color: white;
+}
+.accordion-button{
+    background-color:#016E44;
+    color: white;
+    border: 1px solid white;
+}
+.accordion-button:not(.collapsed){
+    background-color:#016E44;
+    color:white;
+    border: 1px solid white;
+}
+ 
+/*
+2 estilos de clase que se aplican en caso de que los valores del formulario sean válidos o no
+*/
+.verde{ 
+    border: 2px #016E44 solid;
+}
+
+.rojo{
+    border: 2px #ec0000 solid;
+
+}
